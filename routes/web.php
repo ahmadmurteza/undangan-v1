@@ -23,6 +23,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/landing', [LandingController::class, 'index'])->name('landing');
+Route::get('/landing/portofolio', [LandingController::class, 'portofolio'])->name('landing.portofolio');
+Route::get('/landing/gallery', [LandingController::class, 'gallery'])->name('landing.gallery');
+Route::get('/landing/exhibitions', [LandingController::class, 'exhibitions'])->name('landing.exhibitions');
+Route::get('/landing/about', [LandingController::class, 'about'])->name('landing.about');
 
 
 Route::group(['middleware' => 'auth'], function () {

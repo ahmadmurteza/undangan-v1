@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Fotogency | Photography Agency Template</title>
+    <title>Nagios Story</title>
 
 
     <!-- ===============================================-->
@@ -49,7 +49,7 @@
         <div class="container px-md-5">
           <div class="row w-100 g-0 justify-content-between">
             <div class="col-8">
-              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="index.html"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/logo-icon.png') }}" alt="" /><span class="fw-bolder ms-2">Foto</span><span class="fw-thin">gency</span></a></div>
+              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/logo-icon.png') }}" alt="" /><span class="fw-bolder ms-2">Foto</span><span class="fw-thin">gency</span></a></div>
             </div>
             <div class="col-4 d-lg-none text-end pe-0">
               <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
@@ -62,11 +62,11 @@
               <div class="offcanvas-body px-0">
                 <div class="d-lg-flex flex-center-start gap-3 overflow-hidden">
                   <ul class="navbar-nav ms-auto fs-4 ps-6">
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5 active" aria-current="page" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="exhibitions.html">Exhibitions</a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="blog.html">Blog</a></li>
                   </ul>
                 </div>
@@ -79,12 +79,11 @@
                 </div>
                 <div class="d-flex gap-3 align-items-start"><a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="blog.html#contact">Contact Now</a>
                   <ul class="navbar-nav navbar-fotogency ms-auto text-end">
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0 active" aria-current="page" href="index.html">Home</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="exhibitions.html">Exhibitions</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="about.html">About</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0" aria-current="page" href="blog.html">Blog</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
+                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
                   </ul>
                 </div>
               </div>
@@ -96,12 +95,8 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="py-4 pt-md-0 pb-8 pb-sm-11 mt-lg-n8">
 
         @yield('content')
-        <!-- end of .container-->
-
-      </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -174,12 +169,17 @@
     <script src="{{ asset('fotogency/public/vendors/bootstrap/bootstrap.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/anchorjs/anchor.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/is/is.min.js') }}"></script>
+    <script src="{{ asset('fotogency/public/vendors/imagesloaded/imagesloaded.pkgd.js') }}"></script>
+    <script src="{{ asset('fotogency/public/vendors/isotope-layout/isotope.pkgd.min.js') }}"> </script>
+    <script src="{{ asset('fotogency/public/vendors/isotope-packery/packery-mode.pkgd.min.js') }}"> </script>
+    <script src="{{ asset('fotogency/public/vendors/glightbox/glightbox.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/fontawesome/all.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/lodash/lodash.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/https://polyfill.io/v3/polyfill.min.js?features=window.scroll') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/prism/prism.js') }}"></script>
     <script src="{{ asset('fotogency/public/vendors/swiper/swiper-bundle.min.js') }}"></script>
     <script src="{{ asset('fotogency/public/assets/js/theme.js') }}"></script>
+
 
   </body>
 
