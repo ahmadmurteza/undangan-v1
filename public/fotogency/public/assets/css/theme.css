@@ -10211,6 +10211,10 @@ textarea.form-control-lg {
   color: #313839 !important;
 }
 
+.text-1200 {
+  color: #D2B89F !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -20177,7 +20181,7 @@ ul {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: #F59300;
+  background: #D2B89F;
 }
 
 .alert {
@@ -20805,7 +20809,7 @@ code[class*=language-], pre[class*=language-] {
   width: 300%;
   top: 50%;
   left: -300%;
-  background: #F59300;
+  background: #D2B89F;
 }
 .nav-text-outlined:hover {
   color: #000 !important;
@@ -20976,7 +20980,7 @@ code[class*=language-], pre[class*=language-] {
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #F59300;
+  background-color: #9F7F58;
   opacity: 1;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -21154,7 +21158,7 @@ code[class*=language-], pre[class*=language-] {
   left: 0 !important;
 }
 .swiper-theme .swiper-pagination-bullet {
-  background: #F59300;
+  background: #EDE3D9;
   color: inherit;
   border: none;
   padding: 0 !important;
@@ -21169,14 +21173,14 @@ code[class*=language-], pre[class*=language-] {
 }
 .swiper-theme .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #F59300;
+  background: #D2B89F;
 }
 .swiper-theme .swiper-pagination-bullet::after {
   content: "";
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color: #F59300;
+  background-color: #D2B89F;
   top: 0;
   left: 0;
   -webkit-transform: translateX(-100%);
@@ -21185,7 +21189,7 @@ code[class*=language-], pre[class*=language-] {
   border-radius: 0.1875rem;
 }
 .swiper-theme .swiper-pagination-bullet-active {
-  background-color: #F59300 !important;
+  background-color: #D2B89F !important;
 }
 .swiper-theme .swiper-pagination-bullet.swiper-pagination-bullet-active::after {
   -webkit-animation: swiperNavAnimate 5s;
@@ -21965,7 +21969,7 @@ code[class*=language-], pre[class*=language-] {
 .form-fotogency-header-control:hover, .form-fotogency-header-control:focus {
   background-color: transparent;
   color: #5C5C5C;
-  border-bottom: 1px solid #F59300;
+  border-bottom: 1px solid #D2B89F;
 }
 
 .popover {
@@ -22172,7 +22176,7 @@ code[class*=language-], pre[class*=language-] {
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 100%;
-  border: 1px solid #F59300;
+  border: 1px solid #9F7F58;
   -webkit-transition: all 0.15s ease-out;
   -o-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;

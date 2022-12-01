@@ -13,22 +13,22 @@
                                 <div class="swiper-slide">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
-                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img01.png') }}" alt="" />
+                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img01.jpg') }}" alt="" />
                                             <div
                                                 class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center">
                                                 <span class="rounded-circle bg-white p-2 d-block"></span><span
-                                                    class="text-white fw-bold">2017</span></div>
+                                                    class="text-white fw-bold">2019</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
                                             <h1 class="fw-bolder mb-3">Through the Eyes of Kubrick</h1>
-                                            <p class="text-warning fs-3 opacity-75">Individual</p>
+                                            <p class="text-1200 fs-3 opacity-75">Individual</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
                                                 “pictures of the floating world” and artists belonging to the movement
                                                 produced woodblock prints and paintings of scenes from history and
                                                 folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of
                                                 erotica.</p>
-                                            <button class="btn btn-link text-warning p-0 fs-2"><span
+                                            <button class="btn btn-link text-1200 p-0 fs-2"><span
                                                     class="fw-bolder">Details </span><img class="ms-3"
                                                     src="{{ asset('fotogency/public/assets/img/icons/long-arrow.png') }}" alt="" /></button>
                                         </div>
@@ -37,22 +37,22 @@
                                 <div class="swiper-slide">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
-                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img02.png') }}" alt="" />
+                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img02.jpg') }}" alt="" />
                                             <div
                                                 class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center">
                                                 <span class="rounded-circle bg-white p-2 d-block"></span><span
-                                                    class="text-white fw-bold">2015</span></div>
+                                                    class="text-white fw-bold">2020</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
                                             <h1 class="fw-bolder mb-3">Wave of Surrealism in photography</h1>
-                                            <p class="text-warning fs-3 opacity-75">Collective</p>
+                                            <p class="text-1200 fs-3 opacity-75">Collective</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
                                                 “pictures of the floating world” and artists belonging to the movement
                                                 produced woodblock prints and paintings of scenes from history and
                                                 folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of
                                                 erotica.</p>
-                                            <button class="btn btn-link text-warning p-0 fs-2"><span
+                                            <button class="btn btn-link text-1200 p-0 fs-2"><span
                                                     class="fw-bolder">Details </span><img class="ms-3"
                                                     src="{{ asset('fotogency/public/assets/img/icons/long-arrow.png') }}" alt="" /></button>
                                         </div>
@@ -61,22 +61,22 @@
                                 <div class="swiper-slide">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
-                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img03.png') }}" alt="" />
+                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img03.jpg') }}" alt="" />
                                             <div
                                                 class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center">
                                                 <span class="rounded-circle bg-white p-2 d-block"></span><span
-                                                    class="text-white fw-bold">2015</span></div>
+                                                    class="text-white fw-bold">2021</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
                                             <h1 class="fw-bolder mb-3">Through the Eyes of Kubrick</h1>
-                                            <p class="text-warning fs-3 opacity-75">Individual</p>
+                                            <p class="text-1200 fs-3 opacity-75">Individual</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
                                                 “pictures of the floating world” and artists belonging to the movement
                                                 produced woodblock prints and paintings of scenes from history and
                                                 folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of
                                                 erotica.</p>
-                                            <button class="btn btn-link text-warning p-0 fs-2"><span
+                                            <button class="btn btn-link text-1200 p-0 fs-2"><span
                                                     class="fw-bolder">Details </span><img class="ms-3"
                                                     src="{{ asset('fotogency/public/assets/img/icons/long-arrow.png') }}" alt="" /></button>
                                         </div>
@@ -85,22 +85,22 @@
                                 <div class="swiper-slide">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
-                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img04.png') }}" alt="" />
+                                                src="{{ asset('fotogency/public/assets/img/exhibitions/img04.jpg') }}" alt="" />
                                             <div
                                                 class="position-absolute top-5 start-5 mt-n1 d-flex flex-column align-items-center">
                                                 <span class="rounded-circle bg-white p-2 d-block"></span><span
-                                                    class="text-white fw-bold">2015</span></div>
+                                                    class="text-white fw-bold">2022</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
                                             <h1 class="fw-bolder mb-3">Through the Eyes of Kubrick</h1>
-                                            <p class="text-warning fs-3 opacity-75">Individual</p>
+                                            <p class="text-1200 fs-3 opacity-75">Individual</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
                                                 “pictures of the floating world” and artists belonging to the movement
                                                 produced woodblock prints and paintings of scenes from history and
                                                 folktales, sumo wrestlers, landscapes of flora and fauna, and a touch of
                                                 erotica.</p>
-                                            <button class="btn btn-link text-warning p-0 fs-2"><span
+                                            <button class="btn btn-link text-1200 p-0 fs-2"><span
                                                     class="fw-bolder">Details </span><img class="ms-3"
                                                     src="{{ asset('fotogency/public/assets/img/icons/long-arrow.png') }}" alt="" /></button>
                                         </div>

@@ -34,6 +34,10 @@
     <link href="{{ asset('fotogency/public/vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
     <link href="{{ asset('fotogency/public/assets/css/theme.css') }}" rel="stylesheet" />
     <link href="{{ asset('fotogency/public/assets/css/user.css') }}" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
   </head>
 
@@ -49,7 +53,7 @@
         <div class="container px-md-5">
           <div class="row w-100 g-0 justify-content-between">
             <div class="col-8">
-              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/logo-icon.png') }}" alt="" /><span class="fw-bolder ms-2">Foto</span><span class="fw-thin">gency</span></a></div>
+              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/nagios-logo.png') }}" style="width: 8%; height: 8%;" /><span class="fw-bolder ms-2">Nagios.</span><span class="fw-thin">Story</span></a></div>
             </div>
             <div class="col-4 d-lg-none text-end pe-0">
               <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
@@ -75,15 +79,28 @@
             <div class="col-4">
               <div class="d-none d-lg-flex justify-content-end position-relative z-index-1">
                 <div class="position-absolute absolute-centered z-index--1">
-                  <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">Home</h1>
+                  <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">
+                    @if(Route::is('landing'))
+                      Home
+                    @elseif(Route::is('landing.portofolio'))
+                      Portofolio
+                    @elseif(Route::is('landing.gallery'))
+                      Gallery
+                    @elseif(Route::is('landing.exhibitions'))
+                      Exhibitions
+                    @elseif(Route::is('landing.about'))
+                      About
+                    @endif
+                  </h1>
                 </div>
-                <div class="d-flex gap-3 align-items-start"><a class="mb-0 ms-auto text-warning fs-0 fw-bold text-uppercase" href="blog.html#contact">Contact Now</a>
+                <div class="d-flex gap-3 align-items-start">
+                  <a class="mb-0 ms-auto text-1200 fs-0 fw-bold text-uppercase animate__animated animate__fadeInDown animate__delay-4s animate__slower" href="blog.html#contact">Contact Now</a>
                   <ul class="navbar-nav navbar-fotogency ms-auto text-end">
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
-                    <li class="nav-item px-2 position-relative"><a class="nav-link pt-0{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slower"><a class="nav-link pt-0{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slower"><a class="nav-link pt-0{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
                   </ul>
                 </div>
               </div>
@@ -111,17 +128,17 @@
       <div class="container py-7 px-md-5">
         <div class="row g-0">
           <div class="col-md-6 mb-5 mb-md-0">
-            <div class="mb-4 d-inline-block"><a class="navbar-brand pt-0 fs-3 text-white d-flex align-items-center" href="index.html"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/dark-logo-icon.png') }}" alt="" width="25" height="25" /><span class="fw-bolder ms-2">Foto</span><span class="fw-thin">gency</span></a></div>
-            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-map-marker-alt"></i><a class="nav-link text-300 d-inline" href="https://www.google.com/maps/place/2109+WS+09+Oxford+Rd+%23127+ParkVilla+Hills,+">2109 WS 09 Oxford Rd #127 ParkVilla Hills, MI 48334</a></div>
-            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-phone"></i><a class="nav-link text-300 d-inline" href="tel:+8801976476893">+88 019 76456893</a></div>
-            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-envelope"></i><a class="nav-link text-300 d-inline" href="mailto:scrscrumbledegg@gmail.com">scrumbledegg@gmail.com</a></div>
+            <div class="mb-4 d-inline-block"><a class="navbar-brand pt-0 fs-3 text-white d-flex align-items-center" href="index.html"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/nagios-logo.png') }}" alt="" width="25" height="25" /><span class="fw-bolder ms-2">Nagios.</span><span class="fw-thin">Story</span></a></div>
+            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-map-marker-alt"></i><a class="nav-link text-300 d-inline" target="_blank" href="https://www.google.com/maps/place/NAGIOS+STORY/@-3.4341721,114.7225083,17z/data=!3m1!4b1!4m5!3m4!1s0x2de6833bac2a9d21:0xf124bd50ce68b1a4!8m2!3d-3.4341775!4d114.724697">JL. sukamaju komplek citra mandiri permai 2 blok e, Landasan Ulin Bar., Kec. Liang Anggang, Kota Banjar Baru, Kalimantan Selatan 70712</a></div>
+            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-phone"></i><a class="nav-link text-300 d-inline" href="tel:+8801976476893">+62 831 4132 5951</a></div>
+            <div class="col-12 col-md-10 text-300 mb-3"><i class="fas fa-envelope"></i><a class="nav-link text-300 d-inline" href="mailto:scrscrumbledegg@gmail.com">nagiospicture116@gmail.com</a></div>
           </div>
           <div class="col-md-6">
-            <h5 class="text-white mb-2">SUBSCRIBE TO OUR NEWSLETTER</h5>
+            <h5 class="text-white mb-2">BERLANGGANAN DENGAN KAMI</h5>
             <form>
               <div class="form-floating mb-5 position-relative text-200">
                 <input class="form-control form-fotogency-header-control text-200" id="email" type="email" placeholder="name@example.com" required="required" />
-                <label class="text-300 mb-1" for="email">Email</label>
+                <label class="text-200 mb-1" for="email">Email</label>
                 <div class="position-absolute end-0 top-0">
                   <button class="btn shadow-none px-0" type="submit"><img class="ms-3" src="{{ asset('fotogency/public/assets/img/icons/long-arrow.png') }}" alt="" /></button>
                 </div>
@@ -142,13 +159,13 @@
       <div class="container px-md-5">
         <div class="row g-0 justify-content-md-between justify-content-evenly py-4">
           <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
-            <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; Your Company, 2022</p>
+            <p class="fs--1 my-2 fw-light text-100">All rights Reserved &copy; Nagis Story, 2022</p>
           </div>
           <div class="col-12 col-sm-8 col-md-6">
             <p class="fs--1 fw-light my-2 text-center text-md-end text-100"> Made with&nbsp;
               <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="#F95C19" viewBox="0 0 16 16">
                 <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
-              </svg>&nbsp;by&nbsp;<a class="fw-bold text-warning" href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+              </svg>&nbsp;by&nbsp;<a class="fw-bold text-1200" href="https://themewagon.com/" target="_blank">TTEam</a>
             </p>
           </div>
         </div>

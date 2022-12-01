@@ -12,8 +12,8 @@
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
                                     <div class="col-12 col-xl-8 text-center text-xl-start">
-                                        <h4>Michael Lurie</h4>
-                                        <p class="text-warning mb-2">CEO</p>
+                                        <h4>Gusti Adam</h4>
+                                        <p class="text-1200 mb-2">CEO</p>
                                     </div>
                                     <div class="col-12 col-xl-4 justify-content-center fs-2 d-flex gap-1"><a
                                             href="#!"><span class="team-social-icon fab fa-linkedin ml-3"></span></a><a
@@ -28,8 +28,8 @@
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
                                     <div class="col-12 col-xl-8 text-center text-xl-start">
-                                        <h4>Jessica Wanda</h4>
-                                        <p class="text-warning mb-2">Art Director</p>
+                                        <h4>Agung Anugrah</h4>
+                                        <p class="text-1200 mb-2">Art Director</p>
                                     </div>
                                     <div class="col-12 col-xl-4 justify-content-center fs-2 d-flex gap-1"><a
                                             href="#!"><span class="team-social-icon fab fa-linkedin ml-3"></span></a><a
@@ -44,8 +44,8 @@
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
                                     <div class="col-12 col-xl-8 text-center text-xl-start">
-                                        <h4>Roland Keith</h4>
-                                        <p class="text-warning mb-2">Cinematographer</p>
+                                        <h4>Rizqi Ridhani</h4>
+                                        <p class="text-1200 mb-2">Cinematographer</p>
                                     </div>
                                     <div class="col-12 col-xl-4 justify-content-center fs-2 d-flex gap-1"><a
                                             href="#!"><span class="team-social-icon fab fa-linkedin ml-3"></span></a><a
@@ -60,8 +60,8 @@
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
                                     <div class="col-12 col-xl-8 text-center text-xl-start">
-                                        <h4>Diane Givens</h4>
-                                        <p class="text-warning mb-2">Art Director</p>
+                                        <h4>Puspita SW</h4>
+                                        <p class="text-1200 mb-2">Art Director</p>
                                     </div>
                                     <div class="col-12 col-xl-4 justify-content-center fs-2 d-flex gap-1"><a
                                             href="#!"><span class="team-social-icon fab fa-linkedin ml-3"></span></a><a
@@ -76,8 +76,8 @@
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
                                     <div class="col-12 col-xl-8 text-center text-xl-start">
-                                        <h4>John Brown</h4>
-                                        <p class="text-warning mb-2">CEO</p>
+                                        <h4>Bona Susanto</h4>
+                                        <p class="text-1200 mb-2">CEO</p>
                                     </div>
                                     <div class="col-12 col-xl-4 justify-content-center fs-2 d-flex gap-1"><a
                                             href="#!"><span class="team-social-icon fab fa-linkedin ml-3"></span></a><a

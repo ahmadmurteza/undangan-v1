@@ -17,7 +17,7 @@
                                                     <h3 class="text-white">Mogadisu Somalia</h3>
                                                     <p class="text-300">Shooting and Advertisement Campaign</p>
                                                 </div>
-                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img01.png') }}" alt="" />
+                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img01.jpg') }}" alt="" />
                                             </div>
                                         </div>
                                         <div class="col-xl-4 mt-4">
@@ -33,7 +33,7 @@
                                                     <h3 class="text-white">Mogadisu Somalia</h3>
                                                     <p class="text-300">Shooting and Advertisement Campaign</p>
                                                 </div>
-                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img02.png') }}" alt="" />
+                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img02.jpg') }}" alt="" />
                                             </div>
                                         </div>
                                         <div class="col-xl-4 mt-4">
@@ -49,7 +49,7 @@
                                                     <h3 class="text-white">Mogadisu Somalia</h3>
                                                     <p class="text-300">Shooting and Advertisement Campaign</p>
                                                 </div>
-                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img03.png') }}" alt="" />
+                                                <img class="portfolio-img img-fluid" src="{{ asset('fotogency/public/assets/img/portfolio/img03.jpg') }}" alt="" />
                                             </div>
                                         </div>
                                         <div class="col-xl-4 mt-4">
