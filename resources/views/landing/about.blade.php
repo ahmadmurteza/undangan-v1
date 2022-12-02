@@ -7,7 +7,7 @@
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex justify-content-center animate__animated animate__fadeInLeft animate__delay-2s animate__slow">
                             <div class="card border-0 mb-3"><img class="card-img-top" src="{{ asset('fotogency/public/assets/img/team/img1.png') }}"
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
@@ -23,7 +23,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex justify-content-center animate__animated animate__fadeInLeft animate__delay-3s animate__slow">
                             <div class="card border-0 mb-3"><img class="card-img-top" src="{{ asset('fotogency/public/assets/img/team/img2.png') }}"
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex justify-content-center animate__animated animate__fadeInLeft animate__delay-4s animate__slow">
                             <div class="card border-0 mb-3"><img class="card-img-top" src="{{ asset('fotogency/public/assets/img/team/img3.png') }}"
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex justify-content-center animate__animated animate__fadeInRight animate__delay-2s animate__slow">
                             <div class="card border-0 mb-3"><img class="card-img-top" src="{{ asset('fotogency/public/assets/img/team/img4.png') }}"
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex justify-content-center animate__animated animate__fadeInRight animate__delay-3s animate__slow">
                             <div class="card border-0 mb-3"><img class="card-img-top" src="{{ asset('fotogency/public/assets/img/team/img5.png') }}"
                                     alt="" />
                                 <div class="row g-0 card-body px-0 pt-2">

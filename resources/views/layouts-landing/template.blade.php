@@ -53,7 +53,7 @@
         <div class="container px-md-5">
           <div class="row w-100 g-0 justify-content-between">
             <div class="col-8">
-              <div class="d-inline-block"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/nagios-logo.png') }}" style="width: 8%; height: 8%;" /><span class="fw-bolder ms-2">Nagios.</span><span class="fw-thin">Story</span></a></div>
+              <div class="d-inline-block animate__animated animate__fadeIn animate__slower"><a class="navbar-brand pt-0 fs-3 text-black d-flex align-items-center" href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('fotogency/public/assets/img/icons/nagios-logo.png') }}" style="width: 8%; height: 8%;" /><span class="fw-bolder ms-2">Nagios.</span><span class="fw-thin">Story</span></a></div>
             </div>
             <div class="col-4 d-lg-none text-end pe-0">
               <button class="btn p-0 shadow-none text-black fs-2 d-inline-block" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false" aria-label="Toggle offcanvas navigation"><span class="menu-bar"></span></button>
@@ -69,7 +69,7 @@
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
+                    <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Product</a></li>
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
                     <li class="nav-item"><a class="nav-link d-inline-block nav-text-outlined lh-1 text-white fs-5" aria-current="page" href="blog.html">Blog</a></li>
                   </ul>
@@ -79,7 +79,7 @@
             <div class="col-4">
               <div class="d-none d-lg-flex justify-content-end position-relative z-index-1">
                 <div class="position-absolute absolute-centered z-index--1">
-                  <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1">
+                  <h1 class="ms-2 fw-bolder text-outlined text-uppercase text-white pe-none display-1 animate__animated animate__fadeIn animate__delay-3s animate__slower">
                     @if(Route::is('landing'))
                       Home
                     @elseif(Route::is('landing.portofolio'))
@@ -87,19 +87,19 @@
                     @elseif(Route::is('landing.gallery'))
                       Gallery
                     @elseif(Route::is('landing.exhibitions'))
-                      Exhibitions
+                      Product
                     @elseif(Route::is('landing.about'))
                       About
                     @endif
                   </h1>
                 </div>
                 <div class="d-flex gap-3 align-items-start">
-                  <a class="mb-0 ms-auto text-1200 fs-0 fw-bold text-uppercase animate__animated animate__fadeInDown animate__delay-4s animate__slower" href="blog.html#contact">Contact Now</a>
+                  <a class="mb-0 ms-auto text-1200 fs-0 fw-bold text-uppercase animate__animated animate__fadeInDown animate__delay-3s animate__slower" href="blog.html#contact">Contact Now</a>
                   <ul class="navbar-nav navbar-fotogency ms-auto text-end">
                     <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing') ? ' active' : '' }}" aria-current="page" href="{{ route('landing') }}">Home</a></li>
                     <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slower"><a class="nav-link pt-0{{ Route::is('landing.portofolio') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.portofolio') }}">Portfolio</a></li>
                     <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing.gallery') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.gallery') }}">Gallery</a></li>
-                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slower"><a class="nav-link pt-0{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Exhibitions</a></li>
+                    <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slower"><a class="nav-link pt-0{{ Route::is('landing.exhibitions') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.exhibitions') }}">Product</a></li>
                     <li class="nav-item px-2 position-relative animate__animated animate__fadeInRight animate__slow"><a class="nav-link pt-0{{ Route::is('landing.about') ? ' active' : '' }}" aria-current="page" href="{{ route('landing.about') }}">About</a></li>
                   </ul>
                 </div>

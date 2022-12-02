@@ -11,7 +11,7 @@
                 <li class="nav-item"><a class="nav-link p-0 py-md-2 isotope-nav" href="#!" data-filter=".commercial">Commercial</a></li>
             </ul>
         </div>
-        <div class="row g-3" data-isotope='{"layoutMode":"packery"}'>
+        <div class="row g-3  animate__animated animate__fadeIn animate__delay-3s animate__slow" data-isotope='{"layoutMode":"packery"}'>
             <div class="col-lg-3 col-sm-6 col-12 shortfilms gallery-item isotope-item"><img class="img-fluid img-full-height w-100" src="{{ asset('fotogency/public/assets/img/gallery/1.jpg') }}" alt="" data-glightbox="title: To infinity and beyond; description: Iching biching chiching" /></div>
             <div class="col-lg-3 col-sm-6 col-12 shortfilms gallery-item isotope-item"><img class="img-fluid img-full-height w-100" src="{{ asset('fotogency/public/assets/img/gallery/2.jpg') }}" alt="" data-glightbox="title: To infinity and beyond; description: Iching biching chiching" /></div>
             <div class="col-lg-6 col-12 shortfilms gallery-item isotope-item"><img class="img-fluid img-full-height w-100" src="{{ asset('fotogency/public/assets/img/gallery/3.jpg') }}" alt="" data-glightbox="title: To infinity and beyond; description: Iching biching chiching" /></div>

@@ -10,7 +10,7 @@
                         <div class="swiper-container swiper-theme"
                             data-swiper='{"slidesPerView":1,"breakpoints":{"576":{"slidesPerView":1.2}},"spaceBetween":30,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"loopedSlides":3,"slideToClickedSlide":true}'>
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-2s animate__slow">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
                                                 src="{{ asset('fotogency/public/assets/img/exhibitions/img01.jpg') }}" alt="" />
@@ -20,7 +20,7 @@
                                                     class="text-white fw-bold">2019</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
-                                            <h1 class="fw-bolder mb-3">Through the Eyes of Kubrick</h1>
+                                            <h1 class="fw-bolder mb-3">Photogrhapy and Videography Project</h1>
                                             <p class="text-1200 fs-3 opacity-75">Individual</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
@@ -34,7 +34,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-3s animate__slow">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
                                                 src="{{ asset('fotogency/public/assets/img/exhibitions/img02.jpg') }}" alt="" />
@@ -44,7 +44,7 @@
                                                     class="text-white fw-bold">2020</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
-                                            <h1 class="fw-bolder mb-3">Wave of Surrealism in photography</h1>
+                                            <h1 class="fw-bolder mb-3">Making Wedding Invitation</h1>
                                             <p class="text-1200 fs-3 opacity-75">Collective</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as
@@ -58,7 +58,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-4s animate__slow">
                                     <div class="row align-items-xl-center">
                                         <div class="col-lg-5"><img class="img-fluid w-100"
                                                 src="{{ asset('fotogency/public/assets/img/exhibitions/img03.jpg') }}" alt="" />
@@ -68,7 +68,7 @@
                                                     class="text-white fw-bold">2021</span></div>
                                         </div>
                                         <div class="col-lg-6 col-xl-5 mt-4 mt-lg-0">
-                                            <h1 class="fw-bolder mb-3">Through the Eyes of Kubrick</h1>
+                                            <h1 class="fw-bolder mb-3">Outside Project</h1>
                                             <p class="text-1200 fs-3 opacity-75">Individual</p>
                                             <p class="fs-0">s a genre of Japanese art that became popular in the 17th
                                                 century through to the 19th century. The word roughly translates as

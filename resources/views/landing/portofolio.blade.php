@@ -9,7 +9,7 @@
                     <div class="col-lg-12 pb-6 px-0 mb-lg-0">
                         <div class="swiper-container swiper-theme" data-swiper='{"slidesPerView":1,"breakpoints":{"576":{"slidesPerView":1.2}},"spaceBetween":30,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"loop":true,"loopedSlides":3,"slideToClickedSlide":true}'>
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-2s animate__slow">
                                     <div class="row align-items-center">
                                         <div class="col-xl-7">
                                             <div class="position-relative">
@@ -25,7 +25,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-3s animate__slow">
                                     <div class="row align-items-center">
                                         <div class="col-xl-7">
                                             <div class="position-relative">
@@ -41,7 +41,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <div class="swiper-slide animate__animated animate__fadeIn animate__delay-4s animate__slow">
                                     <div class="row align-items-center">
                                         <div class="col-xl-7">
                                             <div class="position-relative">
